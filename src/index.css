@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn-common{
+    @apply hover:bg-zinc-600 bg-zinc-700 w-full my-3 rounded-lg text-white font-bold py-3 hover:underline transition duration-700 ease-in-out
+}
+#root{
+@apply bg-zinc-950  ;
+}
